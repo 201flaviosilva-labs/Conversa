@@ -19,7 +19,10 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "node-sass": "^8.0.0",
+    "sass": "^1.58.0",
     "svelte": "^3.55.1",
+    "svelte-preprocess": "^5.0.1",
     "vite": "^4.1.1"
   },
   "keywords": [],
@@ -31,6 +34,8 @@
     "url": "https://github.com/201flaviosilva-labs/Conversa/issues"
   },
   "dependencies": {
-    "css-free-style": "^1.3.0"
+    "css-free-style": "^1.3.0",
+    "moment": "^2.29.4",
+    "svelte-icons": "^2.1.0"
   }
 }

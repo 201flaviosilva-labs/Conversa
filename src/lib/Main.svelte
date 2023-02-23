@@ -1,10 +1,15 @@
 <script>
   import Message from "./Message.svelte";
   // NumAnteriores.scrollTop = NumAnteriores.scrollHeight;
+
+  export let messages;
 </script>
 
 <main>
-  <Message />
+  <p>beep</p>
+  {#each messages as message}
+    <Message text={message.text} time={message.time} />
+  {/each}
 </main>
 
 <style>

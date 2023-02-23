@@ -1,4 +1,9 @@
+<script>
+  export let text;
+  export let time;
+</script>
+
 <div>
-  <p>Lorem ipsum dolor sit amet</p>
-  <p>Today, <time>14:38</time></p>
+  <p>{text}</p>
+  <p>Today, <time>{time}</time></p>
 </div>
